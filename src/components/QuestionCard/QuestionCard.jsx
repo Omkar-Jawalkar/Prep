@@ -1,9 +1,9 @@
 import { useNavigate } from "react-router-dom";
 import TopicsCovered from "./TopicsCovered";
+import PropTypes from "prop-types";
 
-const QuestionCard = ({ id, questionName, url, topics }) => {
-    // !TODO - COMPLETE the UI with link(react) as top order tag
-
+const QuestionCard = (props) => {
+    const { id, questionName, url, topics } = props;
     const navigate = useNavigate();
     return (
         <div
@@ -15,12 +15,19 @@ const QuestionCard = ({ id, questionName, url, topics }) => {
             <h1 className="text-md">Question No - {id}</h1>
             <h2 className="text-xl font-bold"> {questionName}</h2>
             <div className="flex flex-wrap">
-                {topics.map((topic) => {
-                    return <TopicsCovered title={topic} />;
+                {topics.map((topic, index) => {
+                    return <TopicsCovered key={index} title={topic} />;
                 })}
             </div>
         </div>
     );
+};
+
+QuestionCard.propTypes = {
+    id: PropTypes.string,
+    questionName: PropTypes.string,
+    url: PropTypes.string,
+    topics: PropTypes.array,
 };
 
 export default QuestionCard;
