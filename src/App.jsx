@@ -5,7 +5,7 @@ import Footer from "./components/Footer/Footer";
 
 function App() {
     return (
-        <div className=" bg-gradient-to-br from-sky-200 w-full min-h-screen flex flex-col justify-between">
+        <div className=" bg-gradient-to-b from-orange-500 w-full min-h-screen flex flex-col justify-between">
             {/* **********************************************************************************
              *
              *
