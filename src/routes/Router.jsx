@@ -8,6 +8,7 @@ const router = createBrowserRouter([
         path: "/",
         element: <Mainpage />,
     },
+    // TODO - Add components here
     {
         path: "/curry-question",
         element: (
