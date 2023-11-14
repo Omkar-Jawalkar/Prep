@@ -24,7 +24,7 @@ const QuestionCard = (props) => {
 };
 
 QuestionCard.propTypes = {
-    id: PropTypes.string,
+    id: PropTypes.number,
     questionName: PropTypes.string,
     url: PropTypes.string,
     topics: PropTypes.array,
