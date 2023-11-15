@@ -23,4 +23,10 @@ export const questionData = [
         url: "start-and-stop-timer-question",
         topics: ["setTimeout", "setInterval", "useRef", "useEffect"],
     },
+    {
+        id: 5,
+        questionName: "Curry Question 4",
+        url: "curry-question-4",
+        topics: ["Curry"],
+    },
 ];

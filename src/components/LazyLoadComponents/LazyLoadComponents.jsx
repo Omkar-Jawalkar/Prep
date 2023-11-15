@@ -11,10 +11,14 @@ const SamplerQuestion2Lazy = lazy(() =>
 const StartAndStopQuestion1Lazy = lazy(() =>
     import("../../pages/start-and-stop-timer/StartAndStopMethord1")
 );
+const CurryQuestion4 = lazy(() =>
+    import("../../pages/curry-question-4/CurryQuestion4")
+);
 
 export {
     CurryQuestionLazy,
     ToggleQuestion1Lazy,
     SamplerQuestion2Lazy,
     StartAndStopQuestion1Lazy,
+    CurryQuestion4,
 };
