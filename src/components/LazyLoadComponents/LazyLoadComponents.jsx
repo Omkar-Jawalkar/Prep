@@ -14,6 +14,9 @@ const StartAndStopQuestion1Lazy = lazy(() =>
 const CurryQuestion4 = lazy(() =>
     import("../../pages/curry-question-4/CurryQuestion4")
 );
+const CurryQuestion5 = lazy(() =>
+    import("../../pages/curry-question-5/CurryQuestion5")
+);
 
 export {
     CurryQuestionLazy,
@@ -21,4 +24,5 @@ export {
     SamplerQuestion2Lazy,
     StartAndStopQuestion1Lazy,
     CurryQuestion4,
+    CurryQuestion5,
 };

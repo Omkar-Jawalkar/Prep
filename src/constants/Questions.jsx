@@ -29,4 +29,10 @@ export const questionData = [
         url: "curry-question-4",
         topics: ["Curry"],
     },
+    {
+        id: 5,
+        questionName: "Curry Question 5",
+        url: "curry-question-5",
+        topics: ["Curry"],
+    },
 ];

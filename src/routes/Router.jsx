@@ -7,7 +7,9 @@ import {
     SamplerQuestion2Lazy,
     StartAndStopQuestion1Lazy,
     CurryQuestion4,
+    CurryQuestion5,
 } from "../components/LazyLoadComponents/LazyLoadComponents";
+
 
 const router = createBrowserRouter([
     {
@@ -51,6 +53,14 @@ const router = createBrowserRouter([
         element: (
             <Suspense fallback={<div>SPINNERRRR</div>}>
                 <CurryQuestion4 />
+            </Suspense>
+        ),
+    },
+    {
+        path: "/curry-question-5",
+        element: (
+            <Suspense fallback={<div>SPINNERRRR</div>}>
+                <CurryQuestion5 />
             </Suspense>
         ),
     },
