@@ -30,9 +30,15 @@ export const questionData = [
         topics: ["Curry"],
     },
     {
-        id: 5,
+        id: 6,
         questionName: "Curry Question 5",
         url: "curry-question-5",
         topics: ["Curry"],
+    },
+    {
+        id: 7,
+        questionName: "Memoize Question 6",
+        url: "memoize-question-6",
+        topics: ["Memoization", "Closure", "Caching"],
     },
 ];
