@@ -41,4 +41,10 @@ export const questionData = [
         url: "memoize-question-6",
         topics: ["Memoization", "Closure", "Caching"],
     },
+    {
+        id: 7,
+        questionName: "Method Chaining 8",
+        url: "method-chaining-8",
+        topics: ["Method Chaining", "Closure", "Caching"],
+    },
 ];

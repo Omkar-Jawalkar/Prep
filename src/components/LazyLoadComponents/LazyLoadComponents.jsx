@@ -20,6 +20,9 @@ const CurryQuestion5 = lazy(() =>
 const MemoizeQuestion6 = lazy(() =>
     import("../../pages/memoize-question-6/MemoizeQuestion6")
 );
+const MethodChaining8 = lazy(() =>
+    import("../../pages/method-chaining-8/MethodChaining8")
+);
 
 export {
     CurryQuestionLazy,
@@ -29,4 +32,5 @@ export {
     CurryQuestion4,
     CurryQuestion5,
     MemoizeQuestion6,
+    MethodChaining8,
 };

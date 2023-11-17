@@ -9,6 +9,7 @@ import {
     CurryQuestion4,
     CurryQuestion5,
     MemoizeQuestion6,
+    MethodChaining8,
 } from "../components/LazyLoadComponents/LazyLoadComponents";
 
 const router = createBrowserRouter([
@@ -69,6 +70,14 @@ const router = createBrowserRouter([
         element: (
             <Suspense fallback={<div>SPINNERRRR</div>}>
                 <MemoizeQuestion6 />
+            </Suspense>
+        ),
+    },
+    {
+        path: "/method-chaining-8",
+        element: (
+            <Suspense fallback={<div>SPINNERRRR</div>}>
+                <MethodChaining8 />
             </Suspense>
         ),
     },
