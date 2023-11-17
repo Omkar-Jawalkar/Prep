@@ -28,6 +28,10 @@ const AnimateProgressBar8 = lazy(() =>
     import("../../pages/animate-progressbar-8/AnimateProgressBar8")
 );
 
+const PolfillForBind = lazy(() =>
+    import("../../pages/polyfill-for-bind/PolyfillForBind")
+);
+
 export {
     CurryQuestionLazy,
     ToggleQuestion1Lazy,
@@ -38,4 +42,5 @@ export {
     MemoizeQuestion6,
     MethodChaining8,
     AnimateProgressBar8,
+    PolfillForBind,
 };

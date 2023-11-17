@@ -11,6 +11,7 @@ import {
     MemoizeQuestion6,
     MethodChaining8,
     AnimateProgressBar8,
+    PolfillForBind,
 } from "../components/LazyLoadComponents/LazyLoadComponents";
 
 const router = createBrowserRouter([
@@ -87,6 +88,14 @@ const router = createBrowserRouter([
         element: (
             <Suspense fallback={<div>SPINNERRRR</div>}>
                 <AnimateProgressBar8 />
+            </Suspense>
+        ),
+    },
+    {
+        path: "/polyfill-for-bind",
+        element: (
+            <Suspense fallback={<div>SPINNERRRR</div>}>
+                <PolfillForBind />
             </Suspense>
         ),
     },

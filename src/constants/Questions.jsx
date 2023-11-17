@@ -53,4 +53,10 @@ export const questionData = [
         url: "animate-progressbar-8",
         topics: ["CSS", "Vanila Javascript"],
     },
+    {
+        id: 10,
+        questionName: "Polyfill for bind",
+        url: "polyfill-for-bind",
+        topics: ["PolyFill", "function.prototype", "Bind"],
+    },
 ];
