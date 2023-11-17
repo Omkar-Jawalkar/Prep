@@ -24,6 +24,10 @@ const MethodChaining8 = lazy(() =>
     import("../../pages/method-chaining-8/MethodChaining8")
 );
 
+const AnimateProgressBar8 = lazy(() =>
+    import("../../pages/animate-progressbar-8/AnimateProgressBar8")
+);
+
 export {
     CurryQuestionLazy,
     ToggleQuestion1Lazy,
@@ -33,4 +37,5 @@ export {
     CurryQuestion5,
     MemoizeQuestion6,
     MethodChaining8,
+    AnimateProgressBar8,
 };

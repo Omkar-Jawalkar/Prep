@@ -10,6 +10,7 @@ import {
     CurryQuestion5,
     MemoizeQuestion6,
     MethodChaining8,
+    AnimateProgressBar8,
 } from "../components/LazyLoadComponents/LazyLoadComponents";
 
 const router = createBrowserRouter([
@@ -78,6 +79,14 @@ const router = createBrowserRouter([
         element: (
             <Suspense fallback={<div>SPINNERRRR</div>}>
                 <MethodChaining8 />
+            </Suspense>
+        ),
+    },
+    {
+        path: "/animate-progressbar-8",
+        element: (
+            <Suspense fallback={<div>SPINNERRRR</div>}>
+                <AnimateProgressBar8 />
             </Suspense>
         ),
     },

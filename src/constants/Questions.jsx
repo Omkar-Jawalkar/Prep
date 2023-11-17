@@ -42,9 +42,15 @@ export const questionData = [
         topics: ["Memoization", "Closure", "Caching"],
     },
     {
-        id: 7,
+        id: 8,
         questionName: "Method Chaining 8",
         url: "method-chaining-8",
         topics: ["Method Chaining", "Closure", "Caching"],
+    },
+    {
+        id: 9,
+        questionName: "Animate  Progressbar 8",
+        url: "animate-progressbar-8",
+        topics: ["CSS", "Vanila Javascript"],
     },
 ];
