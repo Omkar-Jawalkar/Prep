@@ -1,3 +1,6 @@
+import walkthroughObj from "walkthrough-js-dev";
+import "walkthrough-js-dev/dist/assets/index.css";
+
 const ToggleQuestion = () => {
     /*
      *
@@ -32,10 +35,17 @@ const ToggleQuestion = () => {
     printToggleValues();
 
     return (
-        <div>
+        <div className="flex justify-center flex-col items-center">
+            <span data-intro="I'm  H1" className="px-4">
+                heyyy
+            </span>
+            <h2 data-intro="I'm H2">heyyy</h2>
+            <h3 data-intro="I'm H3">heyyy</h3>
             <button
+                className="bg-white"
                 onClick={() => {
-                    toggle();
+                    walkthroughObj.start();
+                    // toggle();
                 }}
             >
                 CLICK to toggle
