@@ -14,6 +14,8 @@ import {
     PolfillForBind,
 } from "../components/LazyLoadComponents/LazyLoadComponents";
 
+import Timetable from "../pages/timetable/Timetable";
+
 const router = createBrowserRouter([
     {
         path: "/",
@@ -96,6 +98,14 @@ const router = createBrowserRouter([
         element: (
             <Suspense fallback={<div>SPINNERRRR</div>}>
                 <PolfillForBind />
+            </Suspense>
+        ),
+    },
+    {
+        path: "/timetable",
+        element: (
+            <Suspense fallback={<div>SPINNERRRR</div>}>
+                <Timetable />
             </Suspense>
         ),
     },
